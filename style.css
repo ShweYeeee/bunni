@@ -1,0 +1,160 @@
+html {
+    background-color:#5b823c;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #dfdada;
+    text-align: center;
+}
+p {
+    color: #dfdada;
+    line-height: 1.6;
+}
+a {
+    color: #dfdada;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: -40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #192d0a;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+nav a {
+    margin: 0 10px;
+    font-weight: bold;
+}
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+#home-page {
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+#about-page {
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+
+#flowers-page {
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bouquet-page {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactus-page {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#resources-page {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#donate-page {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #dfdada;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family:cursive;
+}
+.Hidden {
+    display: none;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+.rabbit {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  width: 100%;
+  min-width: 000px;
+  transform-origin: top;
+
+  background-image: url("https://www.cloudcodepro.com/NYCFAB25/user22/workspace/rabbit/rescue%20(1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bunnies {
+    display: block;
+    
+    width: 300px;
+    height: auto;
+    float: left;
+}
+.container {
+  display: flex; /* Aligns children (image and div) horizontally */
+  align-items: center; /* Vertically centers items within the container */
+  gap: 20px; /* Adds space between the image and the text */
+}
+
+.text-content {
+  flex: 1; /* Allows the text content to take up remaining space */
+}
+
+.wildbunnies {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto;    /* Maintains the image's aspect ratio */
+  display: block;
+    
+}
+
+.container1 {
+  display: flex; /* Aligns children (image and div) horizontally */
+  align-items: center; /* Vertically centers items within the container */
+  gap: 20px; /* Adds space between the image and the text */
+}
+.text-content1 {
+  flex: 1; /* Allows the text content to take up remaining space */
+}
+
+section {
+    display: block;
+    margin: 20px 0;
+    background-color: #192d0a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+h3 {
+    color: #dfdada;
+    margin-bottom: 10px;
+}
