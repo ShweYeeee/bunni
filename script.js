@@ -59,4 +59,4 @@ donate.addEventListener("click", function() {
 }); 
 
 // Show the home page by default
-showPage("about-page");
+showPage("flowers-page");
