@@ -60,3 +60,22 @@ donate.addEventListener("click", function() {
 
 // Show the home page by default
 showPage("flowers-page");
+
+function filterSelection(category) {
+    let cards = document.getElementsByClassName("card");
+
+    for (let i = 0; i < cards.length; i++) {
+      cards[i].style.display = "none";
+      if (category === "all" || cards[i].classList.contains(category)) {
+        cards[i].style.display = "block";
+      }
+    }
+
+    let buttons = document.querySelectorAll(".filters button");
+    buttons.forEach(btn => btn.classList.remove("active"));
+    event.target.classList.add("active");
+  }
+
+  function scrollToRabbits() {
+    document.getElementById("rabbits").scrollIntoView({ behavior: "smooth" });
+  }

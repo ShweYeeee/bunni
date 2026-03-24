@@ -198,7 +198,7 @@ h3 {
     }
 
     footer {
-      background: #023047;
+     
       color: white;
       text-align: center;
       padding: 1rem;
@@ -210,3 +210,77 @@ h3 {
       padding-left: 20px;
       color: #dfdada;
     }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+   
+    }
+
+    .hero h2 {
+      font-size: 2em;
+    }
+
+    .hero button {
+      background: #3e5f46;
+      border: none;
+      padding: 12px 20px;
+      color: rgb(243, 231, 231);
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .filters {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .filters button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      background: #ddd;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .filters button.active {
+      background: #537c66;
+      color: white;
+    }
+
+    .container6 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .adopt { background: #a0e7a0; }
+    .foster { background: #ffd59e; }
+    .urgent { background: #ff9e9e; }
+
