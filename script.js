@@ -59,7 +59,7 @@ donate.addEventListener("click", function() {
 }); 
 
 // Show the home page by default
-showPage("flowers-page");
+showPage("donate-page");
 
 function filterSelection(category) {
     let cards = document.getElementsByClassName("card");
@@ -78,4 +78,20 @@ function filterSelection(category) {
 
   function scrollToRabbits() {
     document.getElementById("rabbits").scrollIntoView({ behavior: "smooth" });
+  }
+
+  function filterEvents(type) {
+    const cards = document.querySelectorAll('.event-card');
+    const buttons = document.querySelectorAll('.filters button');
+
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    cards.forEach(card => {
+      if (type === 'all' || card.dataset.type === type) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
   }
