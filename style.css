@@ -458,11 +458,28 @@ h3 {
       border-bottom: 2px solid #6dbf7b;
       padding-bottom: 5px;
     }
+  
+.video1 {
+  color: #6bbf59;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
-    .card3 {
-      background: rgb(34, 48, 27);
-      padding: 20px;
-      margin-top: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
+.video1:hover {
+  text-decoration: underline;
+}
+.hidden {
+  display: none;
+}
+
+.video2 {
+  color: #6bbf59;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.video2:hover {
+  text-decoration: underline;
+}

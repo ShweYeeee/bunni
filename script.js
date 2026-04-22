@@ -59,7 +59,7 @@ donate.addEventListener("click", function() {
 }); 
 
 // Show the home page by default
-showPage("donate-page");
+showPage("contactus-page");
 
 function filterSelection(category) {
     let cards = document.getElementsByClassName("card");
@@ -95,3 +95,27 @@ function filterSelection(category) {
       }
     });
   }
+
+const video1 = document.querySelector('.video1');
+
+video1.addEventListener('click', function() {
+  window.location.href = 'https://youtu.be/Tc1ot072ssU?si=vs8eIUhgbyxk4gcy';
+});
+
+const video2 = document.querySelector('.video2');
+
+video2.addEventListener('click', function() {
+  window.location.href = 'https://www.youtube.com/watch?v=LyE8rLoyMFo&pp=ygUNcmFiYml0IGZvc3Rlcg%3D%3D';
+});
+
+const video3 = document.querySelector('.video3');
+
+video3.addEventListener('click', function() {
+  window.location.href = 'https://www.youtube.com/watch?v=9s8n2j1l7s0&pp=ygUNcmFiYml0IGZvc3Rlcg%3D%3D';
+});
+
+const video4 = document.querySelector('.video4');
+
+video4.addEventListener('click', function() {
+  window.location.href = 'https://www.youtube.com/watch?v=Tqyn4xABHaI&pp=ygURcmFiYml0IHRyYW5zW3BvcnQ%3D';
+});
