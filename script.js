@@ -59,7 +59,7 @@ donate.addEventListener("click", function() {
 }); 
 
 // Show the home page by default
-showPage("contactus-page");
+showPage("home-page");
 
 function filterSelection(category) {
     let cards = document.getElementsByClassName("card");
@@ -111,7 +111,7 @@ video2.addEventListener('click', function() {
 const video3 = document.querySelector('.video3');
 
 video3.addEventListener('click', function() {
-  window.location.href = 'https://www.youtube.com/watch?v=9s8n2j1l7s0&pp=ygUNcmFiYml0IGZvc3Rlcg%3D%3D';
+  window.location.href = 'https://www.youtube.com/watch?v=UJHKyvkJYSs&pp=ygUWcmFiYml0IGFkb3B0aW9uIGV2ZW50cw%3D%3D';
 });
 
 const video4 = document.querySelector('.video4');
@@ -119,3 +119,34 @@ const video4 = document.querySelector('.video4');
 video4.addEventListener('click', function() {
   window.location.href = 'https://www.youtube.com/watch?v=Tqyn4xABHaI&pp=ygURcmFiYml0IHRyYW5zW3BvcnQ%3D';
 });
+
+const video5 = document.querySelector('.video5');
+video5.addEventListener('click', function() {
+  window.location.href = 'https://www.youtube.com/watch?v=xdhSpXDC-XI&pp=ygUScmFiYml0IGZ1bmRyYWlzaW5n';
+});
+
+const video6 = document.querySelector('.video6');
+video6.addEventListener('click', function() {
+  window.location.href = 'https://youtu.be/zbhQS27mCGg';
+} );
+
+ const buttons = document.querySelectorAll(".amount-btn");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+      });
+    });
+
+    document.querySelector(".donate-btn").addEventListener("click", () => {
+      const activeAmount =
+        document.querySelector(".amount-btn.active")?.textContent;
+
+      const customAmount =
+        document.querySelector(".custom-input").value;
+
+      const amount = customAmount || activeAmount;
+
+      alert(`Thank you for donating ${amount}! 🐰`);
+    });

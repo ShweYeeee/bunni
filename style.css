@@ -97,7 +97,7 @@ h2 {
 .logo {
     display: block;
     margin: 0 auto;
-    width: 150px;
+    width: auto;
     height: auto;
 }
 .rabbit {
@@ -442,7 +442,17 @@ h3 {
       text-shadow: 1px 1px 5px black;
     }
 
-    
+     .hero1 {
+       background: url('https://www.cloudcodepro.com/NYCFAB25/user22/workspace/rabbit/rescue%20(1).png') center/cover no-repeat;
+      align-items: center;
+      justify-content: center;
+      color: white;
+       height: 300px;
+      display: flex;
+      text-shadow: 1px 1px 5px black;
+    }
+
+
 
     .container8 {
       padding: 30px;
@@ -483,3 +493,266 @@ h3 {
 .video2:hover {
   text-decoration: underline;
 }
+
+.video3 {
+  color: #6bbf59;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+  
+.video3:hover {
+  text-decoration: underline;
+
+}.video4 {
+  color: #6bbf59;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.video4:hover {
+  text-decoration: underline;
+}
+
+.video5 {
+  color: #6bbf59;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.video5:hover {
+  text-decoration: underline;
+}
+
+.video6 {
+  color: #6bbf59;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.video6:hover {
+  text-decoration: underline;
+}
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container10 {
+      width: 90%;
+      max-width: 1100px;
+      margin: 50px auto;
+    }
+
+    .impact-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin-bottom: 60px;
+    }
+
+    .impact-card {
+      background: white;
+      padding: 30px 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .impact-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .impact-card h2 {
+      color: #6bbf59;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .donate-box {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .donate-content h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #6bbf59;
+    }
+
+    .donate-content p {
+      margin-bottom: 20px;
+    }
+
+    .donation-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+
+    .amount-btn {
+      border: none;
+      background: #244730;
+      color: #6bbf59;
+      padding: 14px 24px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .amount-btn:hover,
+    .amount-btn.active {
+      background: #537c66;
+      color: white;
+    }
+
+    .custom-input {
+      width: 100%;
+      padding: 14px;
+      border: 2px solid #537c66;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    .donate-btn {
+      width: 100%;
+      padding: 16px;
+      background: #073513;
+      color: white;
+      border: none;
+      border-radius: 14px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .donate-btn:hover {
+      background: #537c66;
+    }
+
+    .rabbit-image img {
+      width: 100%;
+      border-radius: 18px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 850px) {
+      .donate-box {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2.3rem;
+      }
+    }
+
+ .hero3 {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+      url("https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=1400&q=80");
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin: 30px 0;
+      color: #ffffff;
+    }
+
+    h2 {
+    
+      margin-bottom: 15px;
+    }
+
+    h3 {
+    
+      margin: 25px 0 10px;
+    }
+
+    .container,
+    .container1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 10%;
+      flex-wrap: wrap;
+    }
+
+    .text-content,
+    .text-content1 {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .text-content p,
+    .text-content1 p,
+    section p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    .bunnies,
+    .wildbunnies,
+    .lacebunni {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .icons {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    section {
+      padding: 40px 10%;
+    }
+
+    .help-box {
+      background: rgb(20, 73, 31);
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-top: 20px;
+    }
+
+    ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .container,
+      .container1 {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
