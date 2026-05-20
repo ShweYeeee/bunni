@@ -121,13 +121,14 @@ h2 {
 }
 .container {
   display: flex; /* Aligns children (image and div) horizontally */
-  align-items: center; /* Vertically centers items within the container */
+  align-items: right; /* Vertically centers items within the container */
   gap: 20px; /* Adds space between the image and the text */
-   max-width: 1000px;
+  ;
 }
 
 .text-content {
-  flex: 1; /* Allows the text content to take up remaining space */
+  flex: 10px;
+  float: right; /* Allows the text content to take up remaining space */
 }
 
 .wildbunnies {
